@@ -1,0 +1,72 @@
+{
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
+	},
+	"editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+	// "editor.fontFamily": "'Cascadia Mono', Consolas, 'Courier New', monospace",
+	"editor.fontSize": 14,
+	"editor.formatOnSave": false,
+	"editor.rulers": [
+		80
+	],
+	"editor.tabSize": 2,
+	"files.associations": {
+		"*.scss.liquid": "scss",
+		"*.js.liquid": "javascript"
+	},
+	"files.eol": "\n",
+	"files.trimTrailingWhitespace": true,
+	"git.autofetch": true,
+	"git.autorefresh": true,
+	"html.validate.scripts": false,
+	"html.validate.styles": false,
+	"search.quickOpen.includeHistory": false,
+	"stylelint.validate": ["css", "scss"],
+	"todohighlight.keywords": [
+		"DEBUG:",
+		"REVIEW:",
+		"REFACTOR",
+		{
+				"text": "NOTE:",
+				"color": "#ff0000",
+				"backgroundColor": "yellow",
+				"overviewRulerColor": "grey"
+		},
+		{
+				"text": "HACK:",
+				"color": "#000",
+				"isWholeLine": false,
+		},
+		{
+				"text": "TODO:",
+				"color": "red",
+				"border": "1px solid red",
+				"borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+				"backgroundColor": "rgba(0,0,0,.2)",
+				//other styling properties goes here ...
+		}
+	],
+	"update.mode": "none",
+	"workbench.colorCustomizations": {
+		"editorRuler.foreground": "#ffffff33"
+	},
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"explorer.confirmDelete": false,
+	"workbench.colorTheme": "One Dark Pro",
+	"workbench.startupEditor": "none",
+	"gitlens.hovers.currentLine.over": "line",
+	"leetcode.workspaceFolder": "/Users/admin/Projects/repos/remy727/leetcode-solutions",
+	"markdown.preview.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+	"leetcode.hint.configWebviewMarkdown": false,
+	"leetcode.editor.shortcuts": [
+		"submit",
+		"test",
+		"solution",
+		"description",
+		"star"
+	],
+}
