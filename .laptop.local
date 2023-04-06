@@ -1,0 +1,63 @@
+#!/bin/sh
+
+brew bundle --file=- <<EOF
+# brew "Caskroom/cask/dockertoolbox"
+brew "go"
+brew "watch"
+cask "ngrok"
+
+# Lazygit
+brew "lazygit"
+
+# Postico
+cask "postico"
+
+# Postman
+cask "postman"
+
+# iterm2
+cask "iterm2"
+
+# Editor
+cask "sublime-text"
+cask "sublime-merge"
+cask "visual-studio-code"
+
+# Browsers
+cask "google-chrome"
+cask "firefox"
+cask "vivaldi"
+
+# Slack
+cask "slack"
+EOF
+
+fancy_echo "Installing Heroku plugins ..."
+
+heroku plugins:install heroku-accounts
+heroku plugins:install heroku-config
+heroku plugins:install data-maintenance
+
+# default_docker_machine() {
+#   docker-machine ls | grep -Fq "default"
+# }
+
+# if ! default_docker_machine; then
+#   docker-machine create --driver virtualbox default
+# fi
+
+# default_docker_machine_running() {
+#   default_docker_machine | grep -Fq "Running"
+# }
+
+# if ! default_docker_machine_running; then
+#   docker-machine start default
+# fi
+
+fancy_echo "Cleaning up old Homebrew formulae ..."
+brew cleanup
+
+if [ -r "$HOME/.rcrc" ]; then
+  fancy_echo "Updating dotfiles ..."
+  rcup
+fi
