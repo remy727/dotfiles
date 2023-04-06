@@ -30,6 +30,9 @@ cask "vivaldi"
 
 # Slack
 cask "slack"
+
+# Memory Clean
+cask "memory-cleaner"
 EOF
 
 fancy_echo "Installing Heroku plugins ..."
