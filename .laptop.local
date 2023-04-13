@@ -2,6 +2,7 @@
 
 brew bundle --file=- <<EOF
 # brew "Caskroom/cask/dockertoolbox"
+brew "gulp-cli"
 brew "go"
 brew "watch"
 cask "ngrok"
@@ -33,6 +34,9 @@ cask "slack"
 
 # Memory Clean
 cask "memory-cleaner"
+
+## CCleaner
+cask "ccleaner"
 EOF
 
 fancy_echo "Installing Heroku plugins ..."
