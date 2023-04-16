@@ -35,8 +35,11 @@ cask "slack"
 # Memory Clean
 cask "memory-cleaner"
 
-## CCleaner
+# CCleaner
 cask "ccleaner"
+
+# Figma
+cask "figma"
 EOF
 
 fancy_echo "Installing Heroku plugins ..."
