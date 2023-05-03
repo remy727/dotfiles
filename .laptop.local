@@ -10,6 +10,10 @@ cask "ngrok"
 # Lazygit
 brew "lazygit"
 
+# Shopify CLI
+tap "shopify/shopify"
+brew "shopify-cli"
+
 # Postico
 cask "postico"
 
