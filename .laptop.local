@@ -44,6 +44,11 @@ cask "ccleaner"
 
 # Figma
 cask "figma"
+
+# Fonts
+tap "homebrew/cask-fonts"
+cask "font-jetbrains-mono"
+# cask "font-fira-code"
 EOF
 
 fancy_echo "Installing Heroku plugins ..."
