@@ -14,11 +14,13 @@ brew "lazygit"
 tap "shopify/shopify"
 brew "shopify-cli"
 
-# Postico
+# Database Client
 cask "postico"
+cask "tableplus"
 
-# Postman
+# HTTP and GraphQL Client
 cask "postman"
+cask "insomnia"
 
 # iterm2
 cask "iterm2"
@@ -36,19 +38,21 @@ cask "vivaldi"
 # Slack
 cask "slack"
 
-# Memory Clean
-cask "memory-cleaner"
-
-# CCleaner
-cask "ccleaner"
-
 # Figma
 cask "figma"
 
 # Fonts
 tap "homebrew/cask-fonts"
 cask "font-jetbrains-mono"
-# cask "font-fira-code"
+cask "font-fira-code"
+
+# Email Client
+cask "emclient"
+
+# Cleaners
+cask "memory-cleaner"
+cask "ccleaner"
+cask "cleanmymac"
 EOF
 
 fancy_echo "Installing Heroku plugins ..."
