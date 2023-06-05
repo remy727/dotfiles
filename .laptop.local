@@ -29,6 +29,7 @@ cask "iterm2"
 cask "sublime-text"
 cask "sublime-merge"
 cask "visual-studio-code"
+cask "cursor"
 
 # Browsers
 cask "google-chrome"
