@@ -50,6 +50,9 @@ cask "font-fira-code"
 # Email Client
 cask "emclient"
 
+# Foxit Reader
+cask "foxitreader"
+
 # Cleaners
 cask "memory-cleaner"
 cask "ccleaner"
