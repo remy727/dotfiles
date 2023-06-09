@@ -2,61 +2,36 @@
 
 brew bundle --file=- <<EOF
 # brew "Caskroom/cask/dockertoolbox"
-brew "gulp-cli"
-brew "go"
-brew "watch"
-cask "ngrok"
-
-# Lazygit
 brew "lazygit"
-
-# Shopify CLI
+brew "go"
+brew "gulp-cli"
 tap "shopify/shopify"
 brew "shopify-cli"
+brew "watch"
 
-# Database Client
-cask "postico"
-cask "tableplus"
-
-# HTTP and GraphQL Client
-cask "postman"
-cask "insomnia"
-
-# iterm2
-cask "iterm2"
-
-# Editor
-cask "sublime-text"
-cask "sublime-merge"
-cask "visual-studio-code"
+cask "ccleaner"
+cask "cleanmymac"
 cask "cursor"
-
-# Browsers
-cask "google-chrome"
-cask "firefox"
-cask "vivaldi"
-
-# Slack
-cask "slack"
-
-# Figma
+cask "emclient"
 cask "figma"
-
-# Fonts
+cask "firefox"
 tap "homebrew/cask-fonts"
 cask "font-jetbrains-mono"
 cask "font-fira-code"
-
-# Email Client
-cask "emclient"
-
-# Foxit Reader
 cask "foxitreader"
-
-# Cleaners
+cask "google-chrome"
+cask "insomnia"
+cask "iterm2"
 cask "memory-cleaner"
-cask "ccleaner"
-cask "cleanmymac"
+cask "ngrok"
+cask "postico"
+cask "postman"
+cask "slack"
+cask "sublime-text"
+cask "sublime-merge"
+cask "tableplus"
+cask "visual-studio-code"
+cask "vivaldi"
 EOF
 
 fancy_echo "Installing Heroku plugins ..."
