@@ -9,6 +9,7 @@ tap "shopify/shopify"
 brew "shopify-cli"
 brew "watch"
 
+cask "beyond-compare"
 cask "ccleaner"
 cask "cleanmymac"
 cask "cursor"
