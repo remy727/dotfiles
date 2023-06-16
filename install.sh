@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cp .laptop.local "$HOME/.laptop.local"
+cp .laptop-ubuntu.local "$HOME/.laptop-ubuntu.local"
 cp .asdfrc "$HOME/.asdfrc"
 
 APPLICATION_SUPPORT="Library/Application Support"
