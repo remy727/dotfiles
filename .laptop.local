@@ -1,5 +1,7 @@
 #!/bin/sh
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 brew bundle --file=- <<EOF
 # brew "Caskroom/cask/dockertoolbox"
 brew "lazygit"
@@ -17,8 +19,9 @@ cask "emclient"
 cask "figma"
 cask "firefox"
 tap "homebrew/cask-fonts"
-cask "font-jetbrains-mono"
 cask "font-fira-code"
+cask "font-jetbrains-mono"
+cask "font-martian-mono"
 cask "foxitreader"
 cask "google-chrome"
 cask "insomnia"
