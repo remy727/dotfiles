@@ -5,6 +5,7 @@ cp .laptop-ubuntu.local "$HOME/.laptop-ubuntu.local"
 cp .asdfrc "$HOME/.asdfrc"
 
 APPLICATION_SUPPORT="Library/Application Support"
+mkdir -p "$HOME/$APPLICATION_SUPPORT/ngrok"
 cp "$APPLICATION_SUPPORT/ngrok/ngrok.yml" "$HOME/$APPLICATION_SUPPORT/ngrok/ngrok.yml"
 
 mv /Applications/Cursor.app/Contents/Frameworks/Electron\ Framework.framework/Versions/A/Libraries/libGLESv2.dylib /Applications/Cursor.app/Contents/Frameworks/Electron\ Framework.framework/Versions/A/Libraries/libGLESv2.dylib.bak
