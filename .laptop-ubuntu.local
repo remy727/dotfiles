@@ -18,3 +18,5 @@ fancy_echo "Installing Slack ..."
 sudo snap install slack
 
 npm install --global yarn
+
+sudo apt install -y sqlite3 libsqlite3-dev
