@@ -48,7 +48,6 @@ heroku plugins:install heroku-config
 heroku plugins:install data-maintenance
 
 npm install --global yarn
-yarn global add react-devtools
 
 # default_docker_machine() {
 #   docker-machine ls | grep -Fq "default"
