@@ -16,3 +16,6 @@ rm -f lazygit*
 
 fancy_echo "Installing Slack ..."
 sudo snap install slack
+
+npm install --global yarn
+yarn global add react-devtools
