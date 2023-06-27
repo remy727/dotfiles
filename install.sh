@@ -3,6 +3,7 @@
 cp .laptop.local "$HOME/.laptop.local"
 cp .laptop-ubuntu.local "$HOME/.laptop-ubuntu.local"
 cp .asdfrc "$HOME/.asdfrc"
+cp .default-gems "$HOME/.default-gems"
 
 APPLICATION_SUPPORT="Library/Application Support"
 mkdir -p "$HOME/$APPLICATION_SUPPORT/ngrok"
