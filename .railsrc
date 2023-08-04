@@ -1,0 +1,7 @@
+--database=postgresql
+--skip-active-job
+--skip-active-storage
+--skip-action-cable
+--skip-test
+
+--template=~/dotfiles/rails_template.rb
