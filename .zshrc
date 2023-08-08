@@ -1,8 +1,3 @@
-# Previous configuration
-export PATH="$HOME/.bin:$PATH"
-source /usr/local/opt/asdf/libexec/asdf.sh
-export PATH=/usr/local/opt/postgresql@15/bin:$PATH
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -13,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="apple"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -76,7 +71,16 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  asdf
+  copyfile
+  copypath
+  dirhistory
+  history
   git
+  jsontools
+  web-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,3 +110,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="$HOME/.bin:$PATH"
+
+eval "$(/usr/local/bin/brew shellenv)"
+# source /usr/local/opt/asdf/libexec/asdf.sh
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
