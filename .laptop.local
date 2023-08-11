@@ -1,5 +1,8 @@
 #!/bin/sh
 
+git config --global user.name "Remy Wang"
+git config --global user.email "remy.wang727@gmail.com"
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 brew bundle --file=- <<EOF
