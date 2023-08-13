@@ -17,3 +17,7 @@ mv /Applications/Visual\ Studio\ Code.app/Contents/Frameworks/Electron\ Framewor
 # Prevent history sharing between iTerm2 terminal tabs
 unsetopt inc_append_history
 unsetopt share_history
+
+# Disable creation of .DS_Store file
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+defaults write com.apple.desktopservices DSDontWriteUSBStores true
