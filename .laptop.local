@@ -57,6 +57,13 @@ npm install --global yarn
 
 brew services start mongodb-community
 
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install Oh My Zsh custom plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 # default_docker_machine() {
 #   docker-machine ls | grep -Fq "default"
 # }
@@ -72,13 +79,6 @@ brew services start mongodb-community
 # if ! default_docker_machine_running; then
 #   docker-machine start default
 # fi
-
-# Install Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Install Oh My Zsh custom plugins
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
