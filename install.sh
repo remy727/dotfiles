@@ -21,3 +21,6 @@ unsetopt share_history
 # Disable creation of .DS_Store file
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 defaults write com.apple.desktopservices DSDontWriteUSBStores true
+
+# To use psql command from your Terminal(after downloading Postgres.app)
+sudo mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
