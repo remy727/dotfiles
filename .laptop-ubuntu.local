@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 ### end common-components/bash-shebang
 
+git config --global user.name "Remy Wang"
+git config --global user.email "remy.wang727@gmail.com"
+
 fancy_echo "Installing Fira Code font ..."
 sudo apt install fonts-firacode
 
