@@ -16,6 +16,8 @@ end
 -- config.color_scheme = 'AdventureTime'
 config.font = wezterm.font 'Martian Mono Std Lt'
 config.font_size = 10.0
+config.initial_rows = 40
+config.initial_cols = 125
 
 -- and finally, return the configuration to wezterm
 return config
