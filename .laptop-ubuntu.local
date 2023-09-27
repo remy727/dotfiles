@@ -17,6 +17,9 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin
 rm -f lazygit*
 
+fancy_echo "Adding Ngrok auth token ..."
+ngrok config add-authtoken <auth_token>
+
 fancy_echo "Installing Slack ..."
 sudo snap install slack
 
