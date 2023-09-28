@@ -18,6 +18,8 @@ config.font = wezterm.font 'Martian Mono Std Lt'
 config.font_size = 10.0
 config.initial_rows = 40
 config.initial_cols = 125
+config.tab_bar_at_bottom = true
+config.hide_tab_bar_if_only_one_tab = true
 
 -- and finally, return the configuration to wezterm
 return config
