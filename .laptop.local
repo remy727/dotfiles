@@ -16,7 +16,7 @@ cask "figma"
 cask "firefox"
 brew "flyctl"
 # Fonts
-brew "flameshot"
+cask "flameshot"
 tap "homebrew/cask-fonts"
 cask "font-fira-code"
 # brew "font-intel-one-mono"
