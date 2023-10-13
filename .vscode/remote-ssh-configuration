@@ -1,0 +1,12 @@
+Host macos
+    User k3
+    HostName 192.168.3.53
+    IdentityFile "C:\Users\Administrator\.ssh\id_ed25519_remote_macos"
+Host macOS2
+    User k3
+    HostName 192.168.3.53
+    IdentityFile "C:\Users\Administrator\.ssh\id_ed25519_remote_macos"
+Host Ubuntu
+    User k3
+    HostName 192.168.3.58
+    IdentityFile "C:\Users\Administrator\.ssh\id_ed25519-remote-ubuntu"
