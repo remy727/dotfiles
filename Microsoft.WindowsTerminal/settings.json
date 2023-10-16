@@ -73,7 +73,7 @@
         "source": "Git"
       },
       {
-        "commandline": "ssh -i ~/.ssh/id_ed25519-remote-ssh -t k3@192.168.3.53",
+        "commandline": "ssh -i ~/.ssh/id_ed25519_remote_macos -t k3@192.168.3.53",
         "font": {
           "face": "Martian Mono Std Rg",
           "size": 10.0
