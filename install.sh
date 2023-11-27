@@ -3,7 +3,7 @@
 mkdir "$HOME/dotfiles"
 cp .asdfrc "$HOME"
 cp .default-gems "$HOME"
-cp .default-gems "$HOME"
+cp .default-npm-packages "$HOME"
 cp .laptop.local "$HOME"
 cp .laptop-ubuntu.local "$HOME"
 cp rails_template.rb "$HOME"
