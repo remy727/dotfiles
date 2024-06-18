@@ -1,14 +1,14 @@
 #!/bin/sh
 
-mkdir "$HOME/dotfiles"
-cp .asdfrc "$HOME"
-cp .default-gems "$HOME"
-cp .default-npm-packages "$HOME"
-cp .laptop.local "$HOME"
-cp .laptop-ubuntu.local "$HOME"
-cp rails_template.rb "$HOME"
-cp .railsrc "$HOME"
-cp .tool-versions "$HOME"
+# mkdir "$HOME/dotfiles"
+cp ~/.local/share/dotfiles/zsh/.asdfrc "$HOME"
+cp ~/.local/share/dotfiles/zsh/.default-gems "$HOME"
+cp ~/.local/share/dotfiles/zsh/.default-npm-packages "$HOME"
+cp ~/.local/share/dotfiles/zsh/.laptop.local "$HOME"
+cp ~/.local/share/dotfiles/zsh/.laptop-ubuntu.local "$HOME"
+cp ~/.local/share/dotfiles/zsh/rails_template.rb "$HOME"
+cp ~/.local/share/dotfiles/zsh/.railsrc "$HOME"
+cp ~/.local/share/dotfiles/zsh/.tool-versions "$HOME"
 
 # Install Ngrok Authtoken
 # APPLICATION_SUPPORT="Library/Application Support"
@@ -25,8 +25,8 @@ cp .tool-versions "$HOME"
 # unsetopt share_history
 
 # Disable creation of .DS_Store file
-defaults write com.apple.desktopservices DSDontWriteNetworkStores true
-defaults write com.apple.desktopservices DSDontWriteUSBStores true
+# defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+# defaults write com.apple.desktopservices DSDontWriteUSBStores true
 
 # To use psql command from your Terminal(after downloading Postgres.app)
 # sudo mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
