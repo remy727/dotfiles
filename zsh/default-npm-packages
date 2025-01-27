@@ -1,4 +1,5 @@
+yarn
 react-devtools
-function-runner
 eslint
 @shopify/polaris-migrator
+@shopify/function-runner
