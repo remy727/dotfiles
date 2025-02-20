@@ -1,6 +1,7 @@
 yarn
 react-devtools
 eslint
+@shopify/cli@latest
 @shopify/polaris-migrator
 @shopify/function-runner
 ggt
